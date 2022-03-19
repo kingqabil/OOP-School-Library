@@ -19,7 +19,6 @@ class App
       actions
 
       option = gets.chomp
-
       break if option == '7'
 
       handle_action option
@@ -29,7 +28,6 @@ class App
   end
 
   private
-
   def handle_action(option)
     case option
     when '1'
@@ -74,9 +72,9 @@ class App
     choice = gets.chomp
 
     case choice
-    when '1'
+    when 1
       create_student
-    when '2'
+    when 2
       create_teacher
     else
       puts 'That is not a valid input'
