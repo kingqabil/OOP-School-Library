@@ -27,6 +27,12 @@ OOP-School-Library)"
 - Twitter: [@kingqabil](https://twitter.com/kingqabil)
 - LinkedIn: [@kingqabil](https://linkedin.com/in/kingqabil)
 
+👤 **Dire Akanbi**
+
+- Github: [@direakanbi](https://github.com/direakanbi)
+- Twitter: [@direakanbi](https://twitter.com/direakanbi)
+- LinkedIn: [Dire Akanbi](https://linkedin.com/in/dire-akanbi)
+
 
 ## 🤝 Contributing
 
