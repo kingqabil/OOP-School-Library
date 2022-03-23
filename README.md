@@ -1,6 +1,6 @@
 # OOP-School-Library
 
->  This project is made as part of Module 4 Week 3. You are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. The app that you will create will allow a you to so.
+>  This project is made as part of Module 4 Week 3. You are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. The app that you will create will allow  you to so.
 
 ## Built With
 

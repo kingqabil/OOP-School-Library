@@ -51,6 +51,6 @@ Style/HashTransformKeys:
 Style/HashTransformValues:
   Enabled: false
 Layout/EndOfLine:
-   Enabled: False
+  Enabled: False
 Metrics/ClassLength:
   Enabled: false
