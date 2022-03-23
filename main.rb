@@ -1,13 +1,14 @@
-require './app'
-# rubocop:disable Metrics/CyclomaticComplexity
-def main
-  app = App.new
+require_relative 'app'
+require 'json'
 
-  response = nil
+class Main
+  def initialize
+    @app = App.new
+  end
 
-  puts "Welcome to School Library App!\n\n"
-  while response != '7'
-    puts 'Please choose an option by enterin a number:'
+  def actions
+    puts
+    puts 'Please choose an option by entering a number:'
     puts '1 - List all books'
     puts '2 - List all people'
     puts '3 - Create a person'
@@ -15,28 +16,24 @@ def main
     puts '5 - Create a rental'
     puts '6 - List all rentals for a given person id'
     puts '7 - Exit'
-    response = gets.chomp
+  end
 
-    case response
-    when '1'
-      app.list_books
-    when '2'
-      app.list_people
-    when '3'
-      app.create_person
-    when '4'
-      app.create_book
-    when '5'
-      app.create_rental
-    when '6'
-      app.list_rentals
-    when '7'
-      puts 'Thank you for using this app!'
+  def run
+    puts 'Welcome to School Library App!'
+
+    loop do
+      actions
+
+      option = gets.chomp
+
+      break if option == '7'
+
+      @app.handle_action option
     end
-
-    puts "\n"
+    @app.persist_data
+    puts 'Thank you for using this app!'
   end
 end
 
-main
-# rubocop:enable Metrics/CyclomaticComplexity
+run_application = Main.new
+run_application.run

@@ -1,6 +1,6 @@
 # OOP-School-Library
 
->  This project is made as part of Module 4 Week 3. You are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. The app that you will create will allow a you to so.
+>  This project is made as part of Module 4 Week 3. You are the librarian of OOP University, and you need a tool to record what books are in the library and who borrows them. The app that you will create will allow  you to so.
 
 ## Built With
 
@@ -21,11 +21,13 @@ OOP-School-Library)"
 - Run `irb` to run the code by pasting it in the terminal.
 - Run `rubocop` to find and fix linters
 
+
 👤 **SadiQ HabiL**
 
 - GitHub: [@kingqabil](https://github.com/kingqabil)
 - Twitter: [@kingqabil](https://twitter.com/kingqabil)
 - LinkedIn: [@kingqabil](https://linkedin.com/in/kingqabil)
+
 
 👤 **Dire Akanbi**
 
