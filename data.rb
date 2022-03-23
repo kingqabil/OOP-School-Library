@@ -71,7 +71,7 @@ module Persist
     end
     open('people.json', 'w') { |f| f.write JSON.generate(json) }
   end
-  
+
   def save_books
     json = []
     @books.each do |book|
@@ -79,6 +79,7 @@ module Persist
     end
     open('books.json', 'w') { |f| f << JSON.generate(json) }
   end
+
   def persist_data
     save_people unless @people.empty?
     save_books unless @books.empty?
