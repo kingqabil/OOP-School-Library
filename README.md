@@ -21,11 +21,13 @@ OOP-School-Library)"
 - Run `irb` to run the code by pasting it in the terminal.
 - Run `rubocop` to find and fix linters
 
+
 👤 **SadiQ HabiL**
 
 - GitHub: [@kingqabil](https://github.com/kingqabil)
 - Twitter: [@kingqabil](https://twitter.com/kingqabil)
 - LinkedIn: [@kingqabil](https://linkedin.com/in/kingqabil)
+
 
 👤 **Dire Akanbi**
 
