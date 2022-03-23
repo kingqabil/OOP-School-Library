@@ -71,11 +71,3 @@ module Persist
     end
     open('people.json', 'w') { |f| f.write JSON.generate(json) }
   end
-
-  def save_rental
-    json = []
-    @rentals.each do |rental|
-      json.push({ date: rental.date, person: rental.person.id, book: rental.book.title })
-    end
-    open('rentals.json', 'w') { |f| f << JSON.generate(json) }
-  end
