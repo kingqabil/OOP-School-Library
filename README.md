@@ -15,6 +15,9 @@ OOP-School-Library)
 OOP-School-Library)"
 - Open the folder with your code editor
 
+## To run the tests
+- Add to the terminal `rspec spec spec/filename.rb`
+
 ## To get started-:
 
 - Run `bundle install` or `bundle i` to install the dependencies
