@@ -1,4 +1,6 @@
 require_relative '../person'
+require_relative '../book'
+require_relative '../rental'
 
 describe Person do
   context 'When passing a name' do
@@ -16,8 +18,13 @@ describe Person do
       expect(person_two.can_use_services?).to eq false
     end
 
+    it 'should have empty rentals' do
+      expect(person.rentals).to eq([])
+    end
+
     it 'should add into rentals' do
-      person.add_rentals(person)
+      book = Book.new('Sadiq Habil', 'Dire Akanbi')
+      person.add_rentals(book)
       expect(person.rentals.length).to eq 1
     end
   end
